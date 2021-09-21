@@ -12,5 +12,8 @@ It is the sequence of Unicode characters wrapped inside single, double, or tripl
 # print(modified_str)
 
 test_list=["","","pratik"]
-new_list=list(filter(None,test_list))
-print(f"The modified list is {new_list}")
+# new_list=list(filter(None,test_list))
+# print(f"The modified list is {new_list}")
+
+new_list=list(filter(lambda x:x, test_list))
+print(new_list)

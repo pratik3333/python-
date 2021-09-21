@@ -1,9 +1,6 @@
-         #Capitalize the first letter
+         Capitalize the first letter
 
-# s="name"
-# b=s.title()
-# print(b)
-
-s=input("string:")
+s="name"
 b=s.title()
 print(b)
+

@@ -18,3 +18,21 @@ test_list=["","","pratik"]
 new_list=list(filter(lambda x:x, test_list))
 print(new_list)
 
+
+s='nratim'
+s=s.title()
+s=s.split()
+string=""
+for i in s:
+    string+=i[:-1]+i[-1].upper()+""
+print(s)
+
+s=input("Enter line of string:")
+s=s.title()
+s=s.split()
+string=""
+for i in s:
+    string+=i[:-1]+i[-1].upper()+" "
+print(string)
+
+

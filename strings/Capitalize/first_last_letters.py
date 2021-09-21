@@ -6,3 +6,4 @@ string=""
 for i in s:
     string+=i[:-1]+i[-1].upper()+" "
 print(string)
+

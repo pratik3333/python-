@@ -5,5 +5,7 @@ split it back to list so that new list made now has no empty string."""
 
 test_list=["","pratik","","","Thank You"]
 
+#Using Join() + Split() to
+#perform removal
 new_list=" ".join(test_list).split()
 print(new_list)

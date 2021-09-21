@@ -1,3 +1,6 @@
+                    #Capitalize first and last character of each word in a string
+
+
 s=input("Enter Line of string: ")
 print(s)
 s=s.title()

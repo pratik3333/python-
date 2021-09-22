@@ -15,3 +15,6 @@
 ages=[5, 6, 78, 23, 55, 21, 22, 20, 18, 14]
 adults=filter(lambda x: x > 18, ages)
 print(list(adults))
+
+#OP:-
+#[78, 23, 55, 21, 22, 20]

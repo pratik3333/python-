@@ -24,3 +24,7 @@ test_list=["","Hey","","","Man"]
 
 new_list=list(filter(None,test_list))
 print(new_list)
+
+
+# OP:-
+# ['Hey', 'Man']

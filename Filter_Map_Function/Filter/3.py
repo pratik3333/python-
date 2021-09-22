@@ -5,7 +5,9 @@ def myfunc(x):
         return True
     return False
 
+
 adults = filter(myfunc,ages)
 
 for x in adults:
     print(x)
+

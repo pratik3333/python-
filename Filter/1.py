@@ -1,5 +1,5 @@
 
-
+    #Finding the even and odd numbers from the given list
 
 number=[23,54,65,77,87,99,78,66,88,44]
 

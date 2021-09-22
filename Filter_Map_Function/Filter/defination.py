@@ -1,6 +1,7 @@
                         #Filter() Function
 
 
+
 """The filter() method filters the given sequence with the help of a function that
 tests each element in the sequence to be true or not.
 

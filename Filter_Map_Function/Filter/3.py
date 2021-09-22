@@ -9,4 +9,3 @@ adults = filter(myfunc,ages)
 
 for x in adults:
     print(x)
-    

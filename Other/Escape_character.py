@@ -5,3 +5,7 @@ An escape character is a backslash \ followed by the character you want to inser
 
 test_text="hey \"man\" how are you"
 print(test_text)
+
+#
+# Op:-
+# hey "man" how are you

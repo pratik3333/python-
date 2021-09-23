@@ -5,3 +5,6 @@
 
 a='     hey man     '
 print(a.strip())
+
+# OP:-
+# hey man

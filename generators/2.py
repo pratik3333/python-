@@ -18,3 +18,4 @@ g=gen(5)
 for i in g:
     print(i)
 
+

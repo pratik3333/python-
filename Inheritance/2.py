@@ -1,19 +1,21 @@
-class Empolyee:
-    no_of_leaves=8
+class Person:
+    def __init__(self,fname,lname):
+        self.firstname=fname
+        self.lastname=lname
+        self.email=fname+lname+'@gmail.com'
 
-    def printdetails(self):
-        return f"Name is {self.name}.salary is {self.salary} and role is {self.role}"
+    def printname(self):
+        print(self.firstname,self.lastname)
 
-harry=Empolyee()
-rohan=Empolyee()
+class Student(Person):
+    def __init__(self,fname,lname,year):
+        super().__init__(fname,lname)
+        self.graduationyear=year
 
-harry.name="Harry"
-harry.salary=455
-harry.role="Instructor"
+x=Student("Mike","joe",2021)
+print(x.graduationyear)
+print(x.email)
 
-rohan.name="Rohan"
-rohan.salary=555
-rohan.role="student"
-
-print(rohan.printdetails())
-print(harry.printdetails())
+# OP:-
+# 2021
+# Mikejoe@gmail.com

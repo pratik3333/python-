@@ -1,4 +1,5 @@
 
+
            #Single level inheritance
 class Employee:
     number_of_leaves=8
@@ -34,9 +35,11 @@ john=Programmer("John",739,"Programmer",["Python"])
 karan=Programmer("karan",342,"Programmer",["Python","cpp"])
 
 print(karan.printprog())
+print(jack.role)
 
 # OP:-
 # The programmer's name is karan.
 # Salary is 342.
 # role is Programmer.
 # and language is ['Python', 'cpp']
+# Super Visor

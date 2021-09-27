@@ -35,3 +35,10 @@ print(harry.backetball)
 
 print(harry.isdance(Son))
 print(larry.isdance(Grandson))
+
+# OP:-
+# 1
+# 1
+# 78
+# Jackson yeah! yes i dance very awesomely 1 number of times
+# Yes i dance 6 number of times.

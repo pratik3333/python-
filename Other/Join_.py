@@ -11,3 +11,5 @@
 #
 # print(x)
 
+s='12344pratik'
+print(s[5:])

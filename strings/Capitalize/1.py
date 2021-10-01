@@ -5,3 +5,6 @@
 n='name'
 c=n.title()
 print(c)
+
+
+

@@ -7,3 +7,4 @@ print(new_list)
 
 # op:-
 # ['cat', 'tiger', 'dog']
+

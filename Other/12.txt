@@ -1,0 +1,4 @@
+What is a Python context manager?
+Context managers allow you to allocate and release resources precisely when you
+ want to. The most widely used example of context managers is the with statement. ...
+ A common use case of context managers is locking and unlocking resources and closing opened files.

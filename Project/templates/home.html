@@ -16,6 +16,15 @@
 
 <form action="add" method="post">
     {% csrf_token %}
+    <h3>addition</h3>
+    Enter 1st number : <input type="text" name="num1"><br>
+    Enter 2st number : <input type="text" name="num2"><br>
+    <input type="submit">
+</form>
+
+<form action="substraction" method="post">
+    {% csrf_token %}
+    <h3>substraction</h3>
     Enter 1st number : <input type="text" name="num1"><br>
     Enter 2st number : <input type="text" name="num2"><br>
     <input type="submit">

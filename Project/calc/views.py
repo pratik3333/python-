@@ -12,6 +12,7 @@ def add(request):
     res = val1 + val2
 
 
+
     return render(request,"result.html",{'result':res})
 
 def sub(request):

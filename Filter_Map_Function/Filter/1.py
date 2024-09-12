@@ -4,10 +4,10 @@
 number=[23,54,44,65,77,87,99,78,66,88,44]
 
 even_number=list(filter(lambda x : x%2 ==0,number))
-print(even_number)
+print("The even numbers is:-",even_number)
 
 odd_number=list(filter(lambda x : x%2 !=0,number))
-print(odd_number)
+print("The odd numbers is:-",odd_number)
 
 
 

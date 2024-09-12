@@ -35,7 +35,7 @@ class Coolprogrammer(Employee,Player):
 pratik=Employee("Pratik",90000,"Student")
 jack=Coolprogrammer("Jack",5342,"coolprogrammer")
 
-print(jack.printlanguage())
+print(jack.printdetail())
 #
 # OP:-
 # python

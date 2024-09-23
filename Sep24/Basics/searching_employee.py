@@ -14,3 +14,4 @@ if d==2:
 else:
     print("Employee not found")
 
+emp_file.close()

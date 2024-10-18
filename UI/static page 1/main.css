@@ -11,3 +11,106 @@
     min-height: 500px;
     border: 1px solid black;
 }
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 25px;
+    background-image: -webkit-linear-gradient(0.45) ;
+}
+span h2
+{
+    font-size: 40px;
+}
+#menus a
+{
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#menus a:hover
+{
+    color: rgb(166, 179, 69);
+}
+#mimg:hover
+{
+    cursor: pointer;
+    /* color: rgb(15, 53, 90); */
+}
+#mimg
+{
+    padding-top: 5px;
+    width: 20px;
+}
+
+.mainpart
+{
+    width: 100%;
+    height: 550px;
+    background-image: url('imgs/mainimage.jpg');
+    background-size: 100% 130%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.middlepart
+{
+    /* transform: translateY(-50); */
+    align-items: center;
+    justify-content: center;
+    text-align: center ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* color: rgb(55, 58, 56); */
+}
+.middlepart h1
+{
+   font-size: 50px;
+   color: rgb(55, 58, 56);
+}
+.middlepart h1,p
+{
+    margin-bottom: 25px;
+}
+.roundpart
+{
+
+    height: 40px;
+    width: 90%;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 50px;
+    margin: auto;
+}
+.spart
+{
+    display: flex;
+    justify-content:space-around;
+    margin-right: 30px;
+    /* padding-left: 30px; */
+}
+.spart h4
+{
+    margin-right: 40px;
+}
+.roundpart img
+{
+    width: 25px;
+}
+
+.roundpart .fpart:hover
+{
+    cursor: pointer;
+}
+.roundpart .spart:hover
+{
+    cursor: pointer;
+}

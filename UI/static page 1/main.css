@@ -97,9 +97,10 @@ span h2
     margin-right: 30px;
     /* padding-left: 30px; */
 }
-.spart h4
+.spart input
 {
     margin-right: 40px;
+    border: none;
 }
 .roundpart img
 {
@@ -113,4 +114,32 @@ span h2
 .roundpart .spart:hover
 {
     cursor: pointer;
+}
+
+.mpart 
+{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgreen;
+    
+}
+
+.mpart span
+{
+    margin: auto;
+}
+
+.mpart .f 
+{
+    display: flex;
+    margin-bottom: 20px;
+    /* justify-content: space-between; */
+    
+}
+.mpart .f img
+{
+    margin-right: 20px;
+    width: 40px;
 }

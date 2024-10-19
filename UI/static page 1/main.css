@@ -143,7 +143,12 @@ span h2
     margin-right: 20px;
     width: 40px;
 }
-
+.lastpart
+{
+    background-color: rgb(173, 228, 173);
+    /* text-align: center; */
+    padding: 30px;
+}
 @media only screen and (max-width:415px)
 {
     nav
